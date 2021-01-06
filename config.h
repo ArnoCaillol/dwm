@@ -114,15 +114,26 @@ static Key keys[] = {
 	{ 0, XF86XK_MonBrightnessUp,	spawn,		SHCMD("xbacklight -inc 5") },
 	{ 0, XF86XK_MonBrightnessDown,	spawn,		SHCMD("xbacklight -dec 5") },
 
-	TAGKEYS(                        0x26,                      0)
-	TAGKEYS(                        0xe9,                      1)
-	TAGKEYS(                        0x22,                      2)
-	TAGKEYS(                        0x27,                      3)
-	TAGKEYS(                        0x28,                      4)
-	TAGKEYS(                        0x2d,                      5)
-	TAGKEYS(                        0xe8,                      6)
-	TAGKEYS(                        0x5f,                      7)
-	TAGKEYS(                        0xe7,                      8)
+	/* AZERTY
+        TAGKEYS(                        0x26,                      0)
+        TAGKEYS(                        0xe9,                      1)
+        TAGKEYS(                        0x22,                      2)
+        TAGKEYS(                        0x27,                      3)
+        TAGKEYS(                        0x28,                      4)
+        TAGKEYS(                        0x2d,                      5)
+        TAGKEYS(                        0xe8,                      6)
+        TAGKEYS(                        0x5f,                      7)
+        TAGKEYS(                        0xe7,                      8)*/
+
+        TAGKEYS(                        0x22,                      0)
+        TAGKEYS(                        0xab,                      1)
+        TAGKEYS(                        0xbb,                      2)
+        TAGKEYS(                        0x28,                      3)
+        TAGKEYS(                        0x29,                      4)
+        TAGKEYS(                        0x40,                      5)
+        TAGKEYS(                        0x2b,                      6)
+        TAGKEYS(                        0x2d,                      7)
+        TAGKEYS(                        0x2f,                      8)
 	{ MODKEY|ShiftMask,             XK_BackSpace,      quit,           {0} },
 };
 
